@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.background-image{
+    background-image: url("images/donate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+.signin-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 10px;
+    transition: .5s linear;
+    font-size: 20px;
+    background-color:blanchedalmond;
+}
+
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56%;
+    margin-top: 20px;
+}
+
+.signin-button:hover{
+    background-color: tomato;
+    transition: all 2s ease;
+    transform: scale(1.2);
+    color: white;
+}
+.signin-button:active{
+    background-color: greenyellow;
+    color: black;
+}
+
+.donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.p1{
+    font-size: 22px;
+    width: 60%;
+    margin-top: 30px;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+
+.box-field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 40px;
+    padding: 30px;
+}
+
+.border-div{
+    border: 2px solid green;
+    padding: 50px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    transition: all 1s ease;
+}
+
+.border-div:hover{
+    background-color: tomato;
+    cursor: pointer;
+    /* transform: rotate(360deg); */
+    transform: scale(1.2); 
+    color: white;
+}
+.border-div:active{
+    background-color: greenyellow;
+    color: black;
+}
+
+.text-fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-fields input[type="text"]:hover{
+    background-color: tomato;
+    color: white;
+    font-size: 22px;
+}
+
+.text-fields input[type="text"]
+{
+    padding: 20px;
+    width: 50%;
+    font-size: 25px;
+
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 20px;
+ }
+ input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 10px;
+    transition: .5s linear;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    margin-bottom: 80px;
+    transition: all 1s ease;
+}
+button:hover{
+    background-color: tomato;
+    transform: scale(1.2); 
+    background-color: tomato;
+    color: white;
+}
+button:active{
+    background-color: greenyellow;
+    color: black;
+}
+
+
+.first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+.p-size{
+    width: 60%;
+    font-size: 22px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+
+/* card start */
+
+.cards{
+    width: 25%;
+    background-color: rgb(202, 194, 184);
+    margin-left:50px;
+    margin-right:50px;
+    border-radius: 10px;
+    /* padding-top:5px; */
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+    transition: all 1s ease;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.des{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cards:hover{
+    transform: scale(1.2);
+}
+
+/* card end */
+
+/* donate-here */
+
+.donate-div{
+    color: black;
+    padding-left: 60px;
+} 
+.picture-div{
+    padding-right: 60px;
+    padding-left: 10px;
+} 
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.size-font{
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: justify;
+}
+/* donate-end */
+
+.my-donate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 140px;
+    font-size: 22px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.tap-div{
+    margin-bottom: 30px;
+}
+
+.block-id{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* box-shadow: 2px 2px 10px black; */
+    margin: 150px;
+    border-radius: 20px;
+}
+.donate-price{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-field input[type="email"]
+{
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+.input-field input[type="email"]:hover{
+    background-color: tomato;
+    color: white;
+    font-size: 22px;
+}
+
+.footer{
+    width: 300;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 20px;   
+}
+.gonna{
+    margin-left: 25px;
+}
+.humble{
+    margin-top: 15px;
+}
